@@ -150,7 +150,12 @@ nav {
 	float: left!important;
 	transition: 1s;
 }
-
+#logojd {
+	padding-top: 10px;
+	width : 0em;
+	float: right!important;
+	
+	}
 
 
 nav a {
@@ -185,7 +190,12 @@ nav a {
 	z-index: -100;
 	object-fit: cover;
 	min-height: 400px;
-	}
+	
+	background-image: url(../../img/emociones.png);
+background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
 	
 	#logomenu {
 		padding-top: 12em;
@@ -1580,7 +1590,7 @@ background-color: white;
 
 #logojd {
 padding-top: 10px;
-width : 3em;
+width : 2em;
 float: right!important;
 
 }
