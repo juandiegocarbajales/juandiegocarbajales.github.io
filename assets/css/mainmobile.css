@@ -383,7 +383,7 @@ margin: auto;
   border-color: black; 
 
   background-image: url(../../img/griffith.png);
-	background-size: auto 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 	transition: 0.2s;
@@ -392,13 +392,13 @@ margin: auto;
 
   #pj_img05:hover {
 	 transition: 0.3s;
-   background-size: auto 110%;
+ 
    filter: saturate(100%);
   }
 
 #pj_img05:active {
  transition: 0.2s;
-	background-size: auto 120%;
+
 	filter: saturate(200%)
   }
 
@@ -415,7 +415,7 @@ margin: auto;
 	border-color: black; 
   
 background-image: url(../../img/bartleby.png);
-	background-size: auto 100%;
+background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
  transition: 0.2s;
@@ -424,13 +424,13 @@ filter: saturate(10%);
 
   #pj_img06:hover {
  transition: 0.3s;
-	background-size: auto 110%;
+
 	filter: saturate(100%);
   }
 
 #pj_img06:active {
  transition: 0.2s;
-	background-size: auto 120%;
+
 	filter: saturate(200%)
   }
 
@@ -450,7 +450,7 @@ margin: auto;
 
 
 background-image: url(../../img/greenhouse1.png);
-	background-size: auto 100%;
+background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
  transition: 0.2s;
@@ -460,14 +460,14 @@ filter: saturate(10%);
   
 #pj_img07:hover {
  transition: 0.3s;
-	background-size: auto 110%;
+
 	filter: saturate(100%);
   
 }
 
 #pj_img07:active {
  transition: 0.2s;
-	background-size: auto 120%;
+	
 	filter: saturate(200%)
   }
 
@@ -487,7 +487,7 @@ margin: auto;
 
 
 background-image: url(../../img/ayer.png);
-	background-size: auto 100%;
+background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
  transition: 0.2s;
@@ -500,7 +500,7 @@ filter: saturate(10%);
 
 #pj_img08:hover {
  transition: 0.3s;
-	background-size: auto 110%;
+
 	filter: saturate(100%);
 
 
@@ -508,7 +508,7 @@ filter: saturate(10%);
 
 #pj_img08:active {
  transition: 0.2s;
-	background-size: auto 120%;
+	
 	filter: saturate(200%)
 
 }
@@ -529,7 +529,7 @@ margin: auto;
 
 
 background-image: url(../../img/emociones.png);
-	background-size: auto 100%;
+background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
  transition: 0.2s;
@@ -542,7 +542,7 @@ filter: saturate(10%);
 
 #pj_img09:hover {
  transition: 0.3s;
-	background-size: auto 110%;
+
 	filter: saturate(100%);
 
 
@@ -550,7 +550,7 @@ filter: saturate(10%);
 
 #pj_img09:active {
  transition: 0.2s;
-	background-size: auto 120%;
+
 	filter: saturate(200%)
 
 }
@@ -571,7 +571,7 @@ filter: saturate(10%);
   
   
   background-image: url(../../img/elgiro.png);
-	  background-size: auto 100%;
+  background-size: cover;
 	  background-repeat: no-repeat;
 	  background-position: center center;
    transition: 0.2s;
@@ -584,7 +584,7 @@ filter: saturate(10%);
   
   #pj_img04:hover {
    transition: 0.3s;
-	  background-size: auto 110%;
+	
 	  filter: saturate(100%);
   
   
@@ -592,7 +592,7 @@ filter: saturate(10%);
   
   #pj_img04:active {
    transition: 0.2s;
-	  background-size: auto 120%;
+
 	  filter: saturate(200%)
   
   }
@@ -612,7 +612,7 @@ filter: saturate(10%);
   
   
   background-image: url(../../img/diasydias.png);
-	  background-size: auto 100%;
+  background-size: cover;
 	  background-repeat: no-repeat;
 	  background-position: center center;
    transition: 0.2s;
@@ -625,7 +625,7 @@ filter: saturate(10%);
   
   #pj_img10:hover {
    transition: 0.3s;
-	  background-size: auto 110%;
+	
 	  filter: saturate(100%);
   
   
@@ -633,7 +633,7 @@ filter: saturate(10%);
   
   #pj_img10:active {
    transition: 0.2s;
-	  background-size: auto 120%;
+	
 	  filter: saturate(200%)
   
   }
@@ -656,7 +656,7 @@ filter: saturate(10%);
   
   
   background-image: url(../../img/animacion2020.png);
-	  background-size: auto 100%;
+  background-size: cover;
 	  background-repeat: no-repeat;
 	  background-position: center center;
    transition: 0.2s;
@@ -669,7 +669,7 @@ filter: saturate(10%);
   
   #pj_img11:hover {
    transition: 0.3s;
-	  background-size: auto 110%;
+
 	  filter: saturate(100%);
   
   
@@ -677,7 +677,7 @@ filter: saturate(10%);
   
   #pj_img11:active {
    transition: 0.2s;
-	  background-size: auto 120%;
+
 	  filter: saturate(200%)
   
   }
@@ -742,8 +742,8 @@ font-weight: bold;
 		/* grid-template-rows: 1fr; */
 		column-gap: 15px;
 		row-gap: 15px;
-		padding-right: 20px;
-		padding-left: 20px;	
+		/* padding-right: 20px;
+		padding-left: 20px;	 */
 		font-family: 'Roboto Condensed', sans-serif;
 		text-align: center;
 		align-content: center;
