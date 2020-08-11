@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: juandiegocarbajales.com
+Token: c4683f79f7c0ce0f215cfdde3cc8559b7895be07197867d7715da44c87834de6
