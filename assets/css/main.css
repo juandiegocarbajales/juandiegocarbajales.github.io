@@ -3,6 +3,20 @@
 @import url("fontawesome-all.min.css");
 @import "compass/css3";
 
+@font-face {
+	font-family: juandi01;
+	src: url('fonts/Juandi_unox.otf') format('truetype');
+}
+
+@font-face {
+	font-family: juandi02;
+	src: url('fonts/Juandi_dos.otf') format('truetype');
+}
+
+@font-face {
+	font-family: juandi03;
+	src: url('fonts/Juandi_tres.otf') format('truetype');
+}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -1430,3 +1444,80 @@ font-weight: bold;
 	.minitext {
 		font-size: 0.8em;
 	}
+
+
+	.juanditxtanim{
+		font-size: 2.2em;
+		text-align: center;
+	}
+
+	.juanditxtanim:before{
+		content:'';
+		animation: animate infinite 1s;
+		
+		}
+		
+		@keyframes animate {
+	0% { 
+		content:'A B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z';
+		font-family: 'juandi01';
+		text-align: center;
+		} 
+		30% { 
+			content:'A B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z';
+		font-family: 'juandi02';
+		text-align: center;
+		}
+
+		55%{
+			content:'A B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z';
+			font-family: 'juandi03';
+			text-align: center;
+		}
+
+		100% { 
+			content:'A B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z';
+			font-family: 'juandi01';
+			text-align: center;
+			} 
+		
+		
+		}
+
+			.juanditxtanim2{
+		font-size: 2.2em;
+		text-align: center;
+	}
+
+	.juanditxtanim2:before{
+		content:'';
+		animation: animate2 infinite 1s;
+		
+		}
+		
+		@keyframes animate2 {
+	0% { 
+		content:'a b c d e f g h i j k l m n ñ o p q r s t u v w x y z';
+		font-family: 'juandi01';
+		text-align: center;
+		} 
+		30% { 
+			content:'a b c d e f g h i j k l m n ñ o p q r s t u v w x y z';
+		font-family: 'juandi02';
+		text-align: center;
+		}
+
+		55%{
+			content:'a b c d e f g h i j k l m n ñ o p q r s t u v w x y z';
+			font-family: 'juandi03';
+			text-align: center;
+		}
+
+		100% { 
+			content:'a b c d e f g h i j k l m n ñ o p q r s t u v w x y z';
+			font-family: 'juandi01';
+			text-align: center;
+			} 
+		
+		
+		}
