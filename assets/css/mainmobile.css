@@ -1740,6 +1740,9 @@ padding-right: 1em;
 		transition: all 5s ease-in-out;
 		font-family: 'Space Mono', monospace;
 	  }
+	  .popup p {
+		  max-height: 50vh;
+	  }
 
 	  #ltemcionesimg{
 		width: 100%;
@@ -1759,7 +1762,7 @@ padding-right: 1em;
 		text-align: center;
 		font-family: 'Space Mono', monospace;
 		max-height: 80vh;
-		font-size: 0.8em;
+		font-size: 0.6em;
 	  }
 	 .textolt{
 		 margin:10px;
