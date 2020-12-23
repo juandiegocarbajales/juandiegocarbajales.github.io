@@ -1729,11 +1729,12 @@ padding-right: 1em;
 	  .popup {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		margin: 70px auto;
+		margin: 20px auto;
 		padding: 20px;
 		background: #fff;
 		border-radius: 5px;
 		width: 100%;
+		max-height: 80vh;
 		height: 80%;
 		position: relative;
 		transition: all 5s ease-in-out;
@@ -1743,6 +1744,7 @@ padding-right: 1em;
 	  #ltemcionesimg{
 		width: 100%;
 		background-color: #d7d7d7;	
+		max-height: 80vh;
 		  }
 
 	  .popup img{
@@ -1756,6 +1758,8 @@ padding-right: 1em;
 		color: white;
 		text-align: center;
 		font-family: 'Space Mono', monospace;
+		max-height: 80vh;
+		font-size: 0.8em;
 	  }
 	 .textolt{
 		 margin:10px;
