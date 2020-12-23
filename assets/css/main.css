@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
 @import url("fontawesome-all.min.css");
 @import "compass/css3";
 
@@ -1521,3 +1523,107 @@ font-weight: bold;
 		
 		
 		}
+
+
+		.overlay {
+			position: fixed;
+			z-index: 10000;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background: rgba(0, 0, 0, 0.7);
+			transition: opacity 500ms;
+			visibility: hidden;
+			opacity: 0;
+		  }
+		  .overlay:target {
+			visibility: visible;
+			opacity: 1;
+		  }
+		  
+		  .popup {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			margin: 70px auto;
+			padding: 20px;
+			background: #fff;
+			border-radius: 5px;
+			width: 50%;
+			position: relative;
+			transition: all 5s ease-in-out;
+			font-family: 'Space Mono', monospace;
+		  }
+
+		  #ltemcionesimg{
+			width: 100%;
+			background-color: #d7d7d7;	
+			  }
+
+		  .popup img{
+			width: 100%;
+			background-color: #d7d7d7;	
+			  }
+		 
+		  #ltemociones{
+			width: 100%;
+			background-color: #d612d6;
+			color: white;
+			text-align: center;
+			font-family: 'Space Mono', monospace;
+		  }
+		 .textolt{
+			 margin:10px;
+		 }
+
+		  .popup h2 {
+			margin-top: 0;
+			
+			color: white;
+			font-family: 'Space Mono', monospace;
+			text-align: center;
+		  }
+		  .popup .close {
+			position: absolute;
+			top: 20px;
+			right: 30px;
+			transition: all 200ms;
+			font-size: 30px;
+			font-weight: bold;
+			text-decoration: none;
+			color: black;
+		  }
+		  .popup .close:hover {
+			color: #7e7e7e;
+		  }
+
+		  .popup a {
+			color: white;
+
+		  }
+  #comprar {
+			color: white;
+			border:solid 2px #ffffff;
+-moz-border-radius: 75px;
+-webkit-border-radius: 75px;
+border-radius: 75px;
+
+padding: 5px;
+
+		  }
+		  .popup a:hover {
+			color: #7e7e7e;
+		  }
+
+#comprar:hover {
+			color: rgb(149, 149, 149);
+			transition: 0.5s;
+		  }
+
+		  .textolt {
+			
+			overflow: auto;
+			font-family: 'Space Mono', monospace !important;
+			text-align: left;
+			
+		  }
