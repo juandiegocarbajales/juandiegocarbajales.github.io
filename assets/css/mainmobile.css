@@ -1735,7 +1735,6 @@ padding-right: 1em;
 		border-radius: 5px;
 		width: 100%;
 		max-height: 80vh;
-		height: 80%;
 		position: relative;
 		transition: all 5s ease-in-out;
 		font-family: 'Space Mono', monospace;
