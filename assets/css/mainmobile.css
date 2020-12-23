@@ -1709,6 +1709,21 @@ padding-right: 1em;
 	
 	}
 
+	.overlayx {
+		position: fixed;
+		z-index: 10000;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: rgba(0, 0, 0, 0.7);
+		transition: opacity 500ms;
+		opacity: 0;
+		visibility: visible;
+		opacity: 1;
+	  }
+
+
 	.overlay {
 		position: fixed;
 		z-index: 10000;
