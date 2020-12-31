@@ -703,6 +703,50 @@ filter: saturate(10%);
   
   /*---------------------------------------------------------------------------*/
 
+      /*-------------------------------------------LAEXCUSA--------------------------*/
+
+#pj_img12 {
+
+	width: 100%;
+	height: 30vh;
+	max-width: 100%;
+  
+  margin: auto;
+  
+	  border: 0.5px;
+	  border-style: solid;
+	  border-color: black; 
+  
+  
+  background-image: url(../../img/excusa.png);
+	  background-size: auto 100%;
+	  background-repeat: no-repeat;
+	  background-position: center center;
+   transition: 0.2s;
+  filter: saturate(10%);
+  
+  
+  
+  }
+  
+  
+  #pj_img12:hover {
+   transition: 0.3s;
+	  background-size: auto 110%;
+	  filter: saturate(100%);
+  
+  
+  }
+  
+  #pj_img12:active {
+   transition: 0.2s;
+	  background-size: auto 120%;
+	  filter: saturate(200%)
+  
+  }
+  
+  /*---------------------------------------------------------------------------*/
+
 
  /*-----------------------------------INTERNAS----------------------------------*/
 
@@ -796,6 +840,31 @@ font-weight: bold;
 	width: 100%;
 	padding-bottom: 1em;
 
+}
+
+
+.lepimagenes {
+
+	display: grid;
+	grid-template-columns: 1fr 1fr  ;
+	grid-template-rows: 1fr;
+	column-gap: 15px;
+	row-gap: 15px;
+	padding-right: 20px;
+	padding-left: 20px;	
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	align-content: center;
+	height: 100%;
+	margin:auto;
+	width: 100%;
+	padding-bottom: 1em;
+
+}
+
+.lepimagenes img{
+	width: 80%;
+	margin:auto;
 }
 
 .emocionesimagenes img{
