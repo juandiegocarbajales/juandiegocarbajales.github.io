@@ -1956,7 +1956,7 @@ padding: 5px;
 
 
 	  #botonytb {
-
+		width: 100%;
 		text-decoration: none;
 		color: #ffffff;
 		font-family: 'Work Sans', sans-serif;
@@ -1987,5 +1987,6 @@ padding: 5px;
 		transition-duration: 0.2s;
 		border: 15px solid black;
 		color: black;
+		font-weight: 300;
 	}
 	
