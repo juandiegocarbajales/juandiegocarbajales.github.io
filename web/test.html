@@ -1,0 +1,41 @@
+<!-- A-Frame 0.7.1 -->
+<!-- <script src="//aframe.io/releases/0.7.1/aframe.min.js"></script> -->
+
+<!-- A-Frame 0.8.* -->
+<script src="//aframe.io/releases/0.8.2/aframe.min.js"></script>
+
+<!-- A-Frame Master -->
+<!-- <script src="https://rawgit.com/aframevr/aframe/master/dist/aframe-master.min.js"></script> -->
+
+<!-- A-Frame Extras -->
+<script src="//unpkg.com/aframe-extras@4.0.3/dist/aframe-extras.min.js"></script>
+
+<!-- A-Frame Physics -->
+<!-- <script src="//unpkg.com/aframe-physics-system@3.1.1/dist/aframe-physics-system.min.js"></script> -->
+
+<!-- A-Frame Animation -->
+<!-- <script src="//unpkg.com/aframe-animation-component@4.1.2/dist/aframe-animation-component.min.js"></script> -->
+
+<!-- A-Frame Environment -->
+<!-- <script src="//unpkg.com/aframe-environment-component@1.0.0/dist/aframe-environment-component.min.js"></script> -->
+
+<!-- SCENE -->
+<a-scene background="color: lightblue;">
+  
+  <!-- CAMERA -->
+  <a-entity id="rig" movement-controls="constrainToNavMesh: true;">
+    <a-entity camera look-controls="pointerLockEnabled: true;" position="0 1.6 0"></a-entity>
+  </a-entity>
+  
+  <!-- STAGE -->
+  <a-entity>
+    
+    <a-entity geometry="primitive: plane; width: 7; height: auto;" material="color:black; opacity: 0.5; side: double;" text="value: \nWhen using `constrainToNavMesh`, looking up or down impedes movement forward and backward.\n\n Side to side works as expected.\n\n; width: 6; color: #eee; align: left; anchor: center; side: double; zOffset: 0.01" position="0 2 -5"></a-entity>
+    
+    <a-grid position="0 5 0" material="side: double;"></a-grid>
+    
+    <a-grid nav-mesh></a-grid>
+    
+  </a-entity>
+  
+</a-scene>

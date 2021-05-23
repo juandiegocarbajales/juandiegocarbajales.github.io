@@ -1,0 +1,53 @@
+<html>
+  <head>
+ <!-- A-Frame 0.8.* -->
+<script src="//aframe.io/releases/0.8.2/aframe.min.js"></script>
+
+
+
+<!-- A-Frame Extras -->
+<script src="//unpkg.com/aframe-extras@4.0.3/dist/aframe-extras.min.js"></script>
+  </head>
+  <body>
+ 
+    <a-scene inspector-plugin-recast>
+<!-- <a-assets>
+      <a-asset-item id="museo" src="model.gltf"></a-asset-item>
+      <a-asset-item id="my-nav-mesh" src="navmesh.gltf"></a-asset-item>
+      <a-asset-item id="knife" src="KitchenKnife.gltf"></a-asset-item>
+      <a-asset-item id="totamato" src="NOVELO_TOMATO.gltf"></a-asset-item>
+
+    </a-assets> -->
+
+<!-- <a-entity movement-controls="speed: 0.15; constrainToNavMesh: true" position="">
+<a-camera camera="" position="0 1.6 0" rotation="" look-controls="pointerLockEnabled: true" wasd-controls="" data-aframe-inspector-original-camera=""></a-camera>
+</a-entity> -->
+
+<a-entity gltf-model="model.gltf" position="0 16.9 0" scale="5 5 5"></a-entity>
+<a-entity gltf-model="navmesh.gltf"  nav-mesh  visible="false"></a-entity>
+<a-entity gltf-model="KitchenKnife.gltf" position="-0.17493 4.36137 -10.12728" scale="0.008 0.008 0.008" rotation="0 90 -15.010000000000002" visible=""></a-entity>
+<a-entity gltf-model="NOVELO_TOMATO.gltf" position="-0.57681 4.2961 -11.25235" scale="0.003 0.003 0.003" rotation="0 0 -15.010000000000002" visible=""></a-entity>
+
+
+<a-entity id="rig" movement-controls="speed: 0.15; constrainToNavMesh: true;">
+  <a-entity camera look-controls="pointerLockEnabled: true;" position="0 1.6 0"></a-entity>
+</a-entity>
+
+<!-- STAGE -->
+<a-entity>
+
+  <a-grid geometry="" material=""></a-grid>
+  <a-grid geometry="" material=""></a-grid>
+ 
+  <!-- <a-grid position="0 5 0" material="side: double;"></a-grid> -->
+  
+  <a-grid></a-grid>
+  
+</a-entity>
+
+    </a-scene>
+
+
+
+  </body>
+</html>
