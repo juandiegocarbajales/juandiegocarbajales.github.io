@@ -1150,11 +1150,12 @@ font-weight: bold;
 
 #footer {
 	color: white;
+	text-align: center;
 }
 
 
 	footer {
-		margin-top: 1em;
+		 
 	}
 
 	br.clear {
@@ -1417,9 +1418,7 @@ font-weight: bold;
 	#footer {
 
 		color: #fff;
-	
-
-		margin: 2em 0 0 0;
+		text-align: center;
 	}
 
 		#footer:after {
@@ -1430,6 +1429,7 @@ font-weight: bold;
 			left: 50%;
 			height: 4.5em;
 			border-left: solid 1px #fff;
+			text-align: center;
 		}
 
 		#footer a {

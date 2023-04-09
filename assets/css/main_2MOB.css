@@ -1150,6 +1150,7 @@ font-weight: bold;
 
 #footer {
 	color: white;
+	text-align: center;
 }
 
 
@@ -1418,7 +1419,7 @@ font-weight: bold;
 
 		color: #fff;
 	
-
+		text-align: center;
 		margin: 2em 0 0 0;
 	}
 
